@@ -1,8 +1,8 @@
-pipeline{
+pipeline {
     agent any
     stages {
-        stage{
-            steps{
+        stage ('Início') {
+            steps {
                 sh 'echo deu certo!'
             }
         }
